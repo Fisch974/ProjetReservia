@@ -1,0 +1,115 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 1em;
+}
+
+.logo {
+  width: 60%;
+  margin: 10px 10px 0px 40px;
+}
+
+/*header*/
+header {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  width: 96%;
+}
+.activities {
+  color: black;
+}
+.herberg {
+  color: #0065fc;
+}
+.signin {
+  color: #0065fc;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*nav*/
+nav {
+  padding-top: 0%;
+  width: 60%;
+  margin: 10px 10px 10px 40px;
+}
+.search {
+  line-height: 0.4em;
+}
+.para {
+  font-size: 13px;
+}
+
+/*section*/
+#loge {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  border: 3px #f2f2f2 solid;
+  background-color: #f2f2f2;
+  border-radius: 20px 20px;
+  border-width: 3em;
+  width: 60%;
+  min-width: 400px;
+  height: 350px;
+  padding: 0;
+  margin: 30px 10px 10px 40px;
+  color: black;
+}
+#loge2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 60%;
+  min-width: 400px;
+  height: 350px;
+  padding: 0;
+  margin: 30px 10px 10px 40px;
+  color: black;
+}
+.child1 {
+  width: 60%;
+  margin: 20px 10px 0 0;
+}
+.child2 {
+  width: 60%;
+  margin: 20px 10px 0 0;
+}
+.child3 {
+  width: 60%;
+  margin: 20px 0 0 0;
+}
+.child4 {
+  width: 0%;
+  margin: 0 190px 0 0;
+}
+.child5 {
+  width: 0%;
+  margin: 0 190px 0 0;
+}
+.child6 {
+  width: 0%;
+  margin: 0 190px 0 0;
+}
+.more {
+  color: black;
+}
+
+/*aside*/
+aside {
+  border: 3px #f2f2f2 solid;
+  background-color: #f2f2f2;
+  border-radius: 20px 20px;
+  width: 350px;
+  margin: 10px 10px 10px 20px;
+  margin: auto;
+}
+/*footer*/
+footer {
+  background-color: #f2f2f2;
+  color: black;
+}
