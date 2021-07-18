@@ -4,6 +4,9 @@ body {
   font-weight: normal;
   padding: 1em;
 }
+a:link {
+  text-decoration: none;
+}
 
 .logo {
   width: 60%;
@@ -11,7 +14,7 @@ body {
 }
 
 /*header*/
-header {
+#box-1 {
   display: flex;
   justify-content: flex-end;
   text-align: right;
@@ -19,6 +22,7 @@ header {
 }
 .activities {
   color: black;
+  margin: 0 50px 0 50px;
 }
 .herberg {
   color: #0065fc;
@@ -111,5 +115,26 @@ aside {
 /*footer*/
 footer {
   background-color: #f2f2f2;
+  color: black;
+}
+.info-1 {
+  color: black;
+}
+.info-2 {
+  color: black;
+}
+.info-3 {
+  color: black;
+}
+.info-4 {
+  color: black;
+}
+.info-5 {
+  color: black;
+}
+.info-6 {
+  color: black;
+}
+.info-7 {
   color: black;
 }
