@@ -19,7 +19,7 @@ a:link {
   display: flex;
   justify-content: flex-end;
   text-align: right;
-  width: 96%;
+  width: 90%;
 }
 .activities {
   color: black;
@@ -40,6 +40,38 @@ nav {
   width: 60%;
   margin: 10px 10px 10px 40px;
 }
+
+.search-box-wrapper {
+  display: flex;
+  font-size: 18px;
+}
+
+.search-location-button {
+  font-size: inherit;
+  border: 2px solid #f2f2f2;
+  border-radius: 0.5em 0 0 0.5em;
+  color: #f2f2f2;
+}
+.search-box-input {
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  border: 1px solid #f2f2f2;
+  border-radius: 0 0 0 0;
+  padding: 0.3em;
+  color: black;
+}
+
+.search-box-button {
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: ;
+  border: 2px solid #0065fc;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: #0065fc;
+  color: white;
+}
+
 .search {
   line-height: 0.4em;
 }
