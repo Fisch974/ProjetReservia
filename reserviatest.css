@@ -36,15 +36,16 @@ a:link {
 
 /*nav*/
 nav {
-  padding-top: 0%;
+  padding-top: 0;
   width: 60%;
-  margin: 10px 10px 10px 40px;
+  margin: 10px 10px 0px 10px;
 }
 
 /*search box*/
 .search-box-wrapper {
   display: flex;
   font-size: 18px;
+  margin-left: 10px;
 }
 
 .search-location-button {
@@ -52,6 +53,7 @@ nav {
   border: 2px solid #f2f2f2;
   border-radius: 0.5em 0 0 0.5em;
   color: #f2f2f2;
+  margin-left: 10px;
 }
 .search-box-input {
   font-size: 17px;
@@ -73,60 +75,80 @@ nav {
 }
 
 /*filters*/
+
 #filters-button {
   display: flex;
   align-items: flex-start;
   justify-content: left;
   flex-direction: row;
-  padding: 1.5em;
-  width: 100%;
+  padding: 1em;
+  width: 69%;
+  margin: 10px 10px 0 10px;
 }
 
-.eco-button {
-  align-self: baseline;
-  font-size: inherit;
+.btn {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  background: none;
+  color: black;
+  width: 340px;
+  height: 40px;
   border: 3px solid #f2f2f2;
-  border-radius: 1.2em 1.2em 1.2em 1.2em;
-  padding: 0.8em;
-  margin: 10px 0 0 25px;
-  width: 9%;
+  margin: 0 10px 0 15px;
+  border-radius: 20px;
+  transition: 0.6s;
+  overflow: visible;
 }
-
-.fam-button {
-  font-size: inherit;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  border: 3px solid #f2f2f2;
-  border-radius: 1.2em 1.2em 1.2em 1.2em;
-  padding: 0.8em;
-  margin: 10px 0 0 20px;
-  width: 6%;
+.btn:focus {
+  outline: none;
 }
-
-.rom-button {
-  font-size: inherit;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  border: 3px solid #f2f2f2;
-  border-radius: 1.2em 1.2em 1.2em 1.2em;
-  padding: 0.8em;
-  margin: 10px 0 0 20px;
-  width: 8%;
+.btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: white;
+  width: 60px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.5s;
+  filter: blur(30px);
+  transform: translateX(-130px) skewX(-15deg);
 }
-
-.pet-button {
-  font-size: inherit;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  border: 3px solid #f2f2f2;
-  border-radius: 1.2em 1.2em 1.2em 1.2em;
-  padding: 0.8em;
-  margin: 10px 0 0 20px;
-  width: 13%;
+.btn::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: white;
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(30px);
+  transform: translate(-100px) scaleX(-15deg);
+  color: white;
 }
-
+.btn:hover {
+  background: #0065fc;
+  cursor: pointer;
+  color: white;
+}
+.btn:hover::before {
+  transition: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.btn:hover::after {
+  transition: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.intro {
+  width: 60%;
+  padding: 1em;
+  margin: 0 0 0 25px;
+}
 .search {
   line-height: 0.4em;
 }
@@ -140,14 +162,14 @@ nav {
 /*section*/
 #loge {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   flex-direction: row;
   border: 3px #f2f2f2 solid;
   background-color: #f2f2f2;
   border-radius: 20px 20px;
   border-width: 3em;
-  width: 60%;
+  width: 40%;
   min-width: 400px;
   height: 350px;
   padding: 0;
