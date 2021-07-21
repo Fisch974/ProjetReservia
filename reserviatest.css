@@ -152,8 +152,12 @@ nav {
 .search {
   line-height: 0.4em;
 }
+.title {
+  padding: 1.2em;
+}
 .para {
   font-size: 13px;
+  padding: 1.7em;
 }
 .cann {
   color: black;
