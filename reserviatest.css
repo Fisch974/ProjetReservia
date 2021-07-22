@@ -113,7 +113,7 @@ nav {
   top: 0;
   opacity: 0.5s;
   filter: blur(30px);
-  transform: translateX(-130px) skewX(-15deg);
+  transform: translateX(-600px) skewX(-10deg);
 }
 .btn::after {
   content: "";
@@ -126,7 +126,7 @@ nav {
   top: 0;
   opacity: 0;
   filter: blur(30px);
-  transform: translate(-100px) scaleX(-15deg);
+  transform: translateX(-600px) skewX(-10deg);
   color: white;
 }
 .btn:hover {
@@ -249,7 +249,7 @@ aside {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 0 0 10px;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 .footer-heading {
   display: flex;
