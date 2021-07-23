@@ -55,6 +55,7 @@ nav {
   border-radius: 0.5em 0 0 0.5em;
   color: #f2f2f2;
   margin-left: 10px;
+  height: 40px;
 }
 .search-box-input {
   font-size: 17px;
@@ -166,7 +167,7 @@ nav {
 
 /*section*/
 .main {
-  height: 650px;
+  height: 600px;
   width: 60%;
   background-color: #f2f2f2;
   display: flex;
@@ -242,38 +243,67 @@ aside img {
   border-radius: 10px 0 0 10px;
 }
 /*article*/
+#ancre {
+  width: 100%;
+  margin: 0 0 10px 60px;
+}
 article {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: flex-start;
   width: 100%;
-  margin: 10px 0px 0px 40px;
+  margin: 10px 10px 30px 40px;
 }
 article img {
   border-radius: 20px 20px 0 0px;
 }
-article p {
-  border: 2px solid white;
-  border-radius: 0 0 20px 20px;
-  width: 82%;
+.cards {
+  width: 300px;
   background-color: white;
-  height: 20pxpx;
+  border-radius: 20px 20px 20px 20px;
+  margin: 10px 30px 30px 20px;
+  height: 450px;
+  box-shadow: 0 0 10px #d3d3d3;
 }
-.flex-article {
-  width: 15%;
+
+.cards-2 {
+  width: 300px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  margin: 10px 30px 50px 20px;
+  height: 230px;
+  box-shadow: 0 0 10px #d3d3d3;
 }
-.flex-article-1 {
-  width: 15%;
-  padding: 4em;
+.cards-3 {
+  width: 300px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  margin: 10px 30px 30px 20px;
+  height: 170px;
+  box-shadow: 0 0 10px #d3d3d3;
 }
-.flex-article-2 {
-  width: 15%;
-  padding: 4em;
+.cards-4 {
+  width: 300px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  margin: 10px 30px 30px 20px;
+  height: 210px;
+  box-shadow: 0 0 10px #d3d3d3;
 }
-.flex-article-3 {
-  width: 15%;
-  padding: 4em;
+.cards-5 {
+  width: 300px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  margin: 10px 30px 30px 20px;
+  height: 210px;
+  box-shadow: 0 0 10px #d3d3d3;
+}
+
+.des {
+  font-weight: 700;
+  margin: 0 0 0 20px;
+  height: 30px;
+  text-align: justify;
 }
 
 /*footer*/
@@ -283,7 +313,7 @@ article p {
   width: 100%;
 }
 .footer {
-  width: 70%;
+  width: 65%;
   height: 20vh;
   padding: 1em;
   background-color: #f2f2f2;
@@ -291,7 +321,7 @@ article p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 40px;
   line-height: 1.8em;
 }
 .footer-heading {
