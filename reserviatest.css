@@ -14,29 +14,28 @@ a:link {
   margin: 10px 10px 0px 60px;
 }
 
-/*header*/
-#box-1 {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  text-align: right;
-  width: 90%;
+/*nav*/
+.contain {
+  position: relative;
+  left: 75%;
+  transform: translateX(0) translateY(-75%);
 }
-.activities {
-  color: black;
-  margin: 0 50px 0 50px;
+nav a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 35px;
 }
-.herberg {
+.sign {
   color: #0065fc;
+  font-weight: 700;
 }
-.signin {
+.places {
   color: #0065fc;
-  font-size: 15px;
-  font-weight: bold;
 }
 
-/*nav*/
-nav {
+/*header*/
+header {
   padding-top: 0;
   width: 60%;
   margin: 10px 10px 0px 40px;
@@ -51,6 +50,7 @@ nav {
 
 .search-location-button {
   font-size: inherit;
+  width: 40px;
   border: 2px solid #f2f2f2;
   border-radius: 0.5em 0 0 0.5em;
   color: #f2f2f2;
@@ -76,6 +76,9 @@ nav {
   background-color: #0065fc;
   color: white;
   cursor: pointer;
+}
+header i {
+  color: black;
 }
 
 /*filters*/
@@ -211,6 +214,7 @@ section img {
   font-weight: 700;
   padding: 2em;
 }
+
 /*aside*/
 aside {
   display: flex;
