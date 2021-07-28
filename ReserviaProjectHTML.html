@@ -31,7 +31,7 @@
     <header>
       <!--SEARCHBOX-->
       <div class="search">
-    <h3><span class="title">Trouvez votre hébergement pour des vacances de rêve</span></h3>
+    <h3><span class="tittle">Trouvez votre hébergement pour des vacances de rêve</span></h3>
       <p><span class="para">En plein centre ville ou en pleine nature</span></p>
       <div class="search-box-wrapper">
         <button class="search-location-button"><i class="fas fa-map-marker-alt"></i></button>
@@ -41,26 +41,32 @@
       <!--FILTERS-->
     <div id="filters-button">
       <h4>Filtres</h4>
-    <button class="btn" type="button">Économique</button>
-    <button class="btn" type="button">Familial</button>
-    <button class="btn" type="button">Romantique</button>
-    <button class="btn" type="button">Animaux autorisés</button>
+    <button class="btn" type="button"><i class="fas fa-money-bill-wave blue"></i>Économique</button>
+    <button class="btn" type="button"><i class="fas fa-child blue"></i>Familial</button>
+    <button class="btn" type="button"><i class="fas fa-heart blue"></i>Romantique</button>
+    <button class="btn" type="button"><i class="fas fa-dog blue"></i>Animaux autorisés</button>
     </div>
-    <p class="intro">Plus de 500 logements sont disponibles dans cette ville</p>
+    <div class="loge-info">
+    <p class="intro"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+  </div>
   </header>
 </div>
-<br>
+
 <!--SECTION1-->
 <section>
-  <div class="title">
   <h3 id="ancre2">Hébergements à Marseille</h3>
-  </div>
   <div class="card">
 <a href="url">
 <img class="image" src="cannebiere.jpg" alt="Photo de l'Auberge la Cannebière" width="170" height="100">
 <div class="inffo">
 <h4>Auberge la Cannebière</h4>
 <p>Nuit à partir de 25€</p>
+<div class="section-stars">
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star grey"></i>
 </div>
 </div>
 </div>
@@ -68,41 +74,80 @@
 <div class="card">
 <a href="url">
 <img class="image" src="hotelport.jpg" alt="Photo de l'Hôtel du port" width="170" height="100"><br>
-<div class="info">
-<p><strong>Hôtel du port</strong></p>
-<p>Nuit à partir de 52€</i></p>
+<div class="inffo">
+<h4>Hôtel du port</h4>
+<p>Nuit à partir de 52€</p>
+<div class="section-stars">
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+</div>
 </div>
 </div>
 </a>
 <div class="card">
 <a href="url">
 <img class="image" src="mouettes.jpg" alt="Photo de l'Hôtel les mouettes" width="170" height="100"><br>
-<p><strong>Hôtel les mouettes</strong></p>
+<div class="inffo">
+<h4>Hôtel les mouettes</h4>
 <p>Nuit à partir de 76€</p>
+<div class="section-stars">
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star grey"></i>
+</div>
 </div>
 </div>
 </a>
 <div class="card">
 <a href="url">
 <img class="image" src="hotelmer.jpg" alt="Photo de l'Hôtel de la mer" width="170" height="100"><br>
-<p><strong>Hôtel de la mer</strong></p>
+<div class="inffo">
+<h4>Hôtel de la mer</h4>
 <p>Nuit à partir de 46€</p>
+<div class="section-stars">
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star grey"></i>
+  <i class="fas fa-star grey"></i>
+</div>
 </div>
 </div>
 </a>
 <div class="card">
 <a href="url">
 <img class="image" src="lepanier.jpg" alt="Photo de l'Auberge le Panier" width="170" height="100"><br>
-  <p><strong>Auberge Le Panier</strong></p>
+<div class="inffo">
+<h4>Auberge Le Panier</h4>
 <p>Nuit à partir de 23€</p>
+<div class="section-stars">
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star grey"></i>
+</div>
 </div>
 </div>
 </a>
 <div class="card">
 <a href="url">
 <img class="image" src="amina.jpg" alt="Photo de l'Hôtel chez Amina" width="170" height="100"><br>
-<p><strong>Hôtel chez Amina</strong></p>
+<div class="inffo">
+<h4>Hôtel chez Amina</h4>
 <p>Nuit à partir de 96€</p>
+<div class="section-stars">
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+  <i class="fas fa-star blue"></i>
+</div>
 </div>
 </div>
 </a>
@@ -116,26 +161,33 @@
 <!--ASIDE-->
  <aside>
     <div class="sidebar">
-    <h3>Les plus populaires</h3>
+    <h3>Les plus populaires<i class="fas fa-chart-line"></i></h3>
       <div class="cards-side">
       <a href="url">
-      <img src="soleilmatin.jpg" alt="Photo de l'Hôtel Le Soleil du Matin" width="150" height="120">
-       <p><strong>Hôtel Le soleil du matin</strong>
-      Nuit à partir de 128€</p>
-      </a>
+      <img src="soleilmatin.jpg" alt="Photo de l'Hôtel Le Soleil du Matin" width="120" height="120">
+      <div class="trend-details">
+      <h4>Hôtel Le soleil du matin</h4>
+      <p></p>Nuit à partir de 128€</p>
       </div>
-      <div class="cards-side">
-      <a href="url">
-        <img src="coeurdelo.jpg" alt="Photo des chambres d'hôtes Au coeur de l'eau" width="150" height="120">
-        <p><strong>Au cœur de l'eau Chambres d'hôtes</strong>
-      Nuit à partir de 71€</p>
-      </a>
       </div>
+      </a>
       <div class="cards-side">
       <a href="url">
-      <img src="toutbleublanc.jpg" alt="Photo de l'hôtel Tout bleu et Blanc" width="150" height="120">
-        <p><strong>Hôtel Tout bleu et Blanc</strong>
-      Nuit à partir de 68€</p>
+        <img src="coeurdelo.jpg" alt="Photo des chambres d'hôtes Au coeur de l'eau" width="120" height="120">
+        <div class="trend-details">
+        <h4>Au cœur de l'eau<br>Chambres d'hôtes</h4>
+        <p>>Nuit à partir de 71€</p>
+        </div>
+        </div>
+      </a>
+      <div class="cards-side">
+      <a href="url">
+      <img src="toutbleublanc.jpg" alt="Photo de l'hôtel Tout bleu et Blanc" width="120" height="120">
+      <div class="trend-details">
+      <h4>Hôtel Tout bleu et Blanc</h4>
+      <p>Nuit à partir de 68€</p>
+      </div>
+     </div>
       </a>
     </aside>
     </section>
@@ -204,6 +256,7 @@
     </div>
   </div>
     </article>
+  </section>
   </div>
 <br>
   <!--FOOTER-->

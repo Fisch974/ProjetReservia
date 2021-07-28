@@ -8,7 +8,12 @@ a:link {
   text-decoration: none;
   color: black;
 }
-
+.blue {
+  color: #0065fc;
+}
+.grey {
+  color: #d3d3d3;
+}
 .logo {
   width: 60%;
   margin: 10px 10px 0px 60px;
@@ -38,14 +43,13 @@ nav a {
 header {
   padding-top: 0;
   width: 60%;
-  margin: 10px 10px 0px 40px;
+  margin: 10px 10px 0px 10px;
 }
-
 /*search box*/
 .search-box-wrapper {
   display: flex;
   font-size: 18px;
-  margin-left: 10px;
+  margin-left: 40px;
 }
 
 .search-location-button {
@@ -59,6 +63,8 @@ header {
 }
 
 .search-box-input {
+  width: 200px;
+  height: 30px;
   font-size: 17px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -66,7 +72,12 @@ header {
   border-radius: 0 0 0 0;
   padding: 0.3em;
 }
-
+.title {
+  margin-left: 25px;
+}
+.para {
+  margin-left: 25px;
+}
 .search-box-button {
   font-size: 13px;
   font-family: "Raleway", sans-serif;
@@ -90,7 +101,7 @@ header i {
   flex-direction: row;
   padding: 1em;
   width: 69%;
-  margin: 10px 10px 0 10px;
+  margin: 10px 10px 0 40px;
 }
 
 .btn {
@@ -137,9 +148,9 @@ header i {
   color: white;
 }
 .btn:hover {
-  background: #0065fc;
+  background: #deebff;
   cursor: pointer;
-  color: white;
+  color: #0065fc;
 }
 .btn:hover::before {
   transition: translateX(300px) skewX(-15deg);
@@ -154,13 +165,14 @@ header i {
 .intro {
   width: 60%;
   padding: 1em;
-  margin: 0 0 0 30px;
+  margin: 0 0 15px 30px;
 }
 .search {
   line-height: 0.4em;
 }
-.title {
-  padding: 1.2em;
+.tittle {
+  padding: 2.5em;
+  margin-bottom: 10px;
 }
 .para {
   font-size: 13px;
@@ -168,6 +180,24 @@ header i {
 }
 .cann {
   color: black;
+}
+.loge-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1em;
+}
+.loge-info i {
+  text-align: center;
+  font-size: 12px;
+  width: 10px;
+  height: 10px;
+  padding: 6px;
+  margin-right: 10px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  color: #0065fc;
 }
 
 /*section*/
@@ -187,13 +217,17 @@ section {
   border-radius: 20px 20px;
   width: 220px;
   height: 180px;
-  margin: 20px 20px 0 20px;
-  padding: 0.2rem;
+  margin: 20px 20px 30px 20px;
+  padding: 4px;
   cursor: pointer;
   box-shadow: 0 0 10px #d3d3d3;
 }
 .inffo {
-  margin: 0 0 0 10px;
+  margin-left: 10px;
+  line-height: 0px;
+}
+.section-stars {
+  margin-left: 0px;
 }
 
 .image {
@@ -206,19 +240,22 @@ section {
 }
 #ancre2 {
   width: 100%;
-  padding: 1em;
-  margin: 0 500px 0 0;
+  padding-top: 20px;
+  padding-left: 90px;
+  margin: 40px 500px 0 0;
   position: relative;
   left: -7%;
 }
 .more {
   width: 100%;
   font-weight: 700;
-  padding: 2em;
+  padding-bottom: 25px;
+  padding-left: 30px;
 }
 
 /*aside*/
 aside {
+  display: flex;
   justify-content: center;
   position: absolute;
   left: 55%;
@@ -230,26 +267,41 @@ aside {
   width: 500px;
   margin: 10px 10px 10px 20px;
   margin: auto;
-  width: 23%;
+  width: 22%;
   height: 600px;
 }
 .cards-side {
   background: white;
   border-radius: 20px 20px;
-  width: 320px;
+  width: 340px;
   height: 120px;
   margin: 20px 20px 50px 20px;
-  padding: 0.2rem;
+  padding: 4px;
   cursor: pointer;
   box-shadow: 0 0 10px #d3d3d3;
+}
+.trend-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 15px;
 }
 aside img {
   border-radius: 20px 0 0 20px;
 }
+aside h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
 /*article*/
 #ancre {
   width: 100%;
-  margin: 0 0 10px 60px;
+  margin: 30px 0 10px 60px;
 }
 article {
   display: flex;
