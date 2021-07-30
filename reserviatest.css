@@ -53,7 +53,7 @@ header {
 .search-box-wrapper {
   display: flex;
   font-size: 18px;
-  margin-left: 40px;
+  margin-left: -15px;
 }
 
 .search-location-button {
@@ -78,10 +78,13 @@ header {
   padding: 0.3em;
 }
 .title {
-  margin-left: 25px;
+  padding-left: 40px;
 }
 .para {
-  margin-left: 25px;
+  margin-left: 0;
+}
+.search {
+  margin-left: 50px;
 }
 .search-box-button {
   width: 110px;
@@ -95,98 +98,104 @@ header {
   cursor: pointer;
 }
 .search-box-button:hover {
-  box-shadow: 0px 0px 15px #a9a9a9;
+  box-shadow: 5px 3px 10px #a9a9a9;
+  transition: 0.5s;
 }
 header i {
   color: #000;
 }
 /*filters*/
 
-#filters-button {
+.title-filters {
   display: flex;
-  align-items: flex-start;
-  justify-content: left;
+  align-items: center;
   flex-direction: row;
-  padding: 1em;
-  width: 69%;
-  margin: 10px 10px 0 40px;
+  margin-left: 0;
+  margin-top: 20px;
+}
+.filters-button {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 20px;
 }
 
-.btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  background: none;
-  color: black;
-  width: 340px;
-  height: 40px;
-  border: 3px solid #f2f2f2;
-  margin: 0 10px 0 15px;
-  border-radius: 20px;
-  transition: 0.6s;
-  overflow: visible;
+.filters-button h4 {
+  margin-right: 20px;
+  margin-left: 10px;
 }
-.btn:focus {
-  outline: none;
+
+.container-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container-filters,
+.container-filters-2 {
+  display: flex;
+  flex-direction: row;
 }
 
 .btn:hover {
-  background: #deebff;
+  color: #fff;
+  background-color: #0065fc;
   cursor: pointer;
-  color: #0065fc;
-}
-.dog-button {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  background: none;
-  color: black;
-  width: 500px;
-  height: 40px;
-  border: 3px solid #f2f2f2;
-  margin: 0 10px 0 15px;
-  border-radius: 20px;
-  transition: 0.6s;
-  overflow: visible;
+  border: 1px solid #0065fc;
+  box-shadow: 5px 3px 10px #a9a9a9;
+  transition: 0.5s;
 }
 
-.dog-button:hover {
-  background: #deebff;
-  cursor: pointer;
-  color: #0065fc;
+.button-filters button {
+  text-decoration: none;
+  border: none;
+  border-color: #0065fc;
 }
-.dog-button i {
-  padding-right: 20px;
-  border: 2px solid #deebff;
-  border-radius: 20px;
-  height: 30px;
-  width: 10px;
+
+.btn-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 2px 0 30px;
+  border: 2px solid #f2f2f2;
+  background-color: #fff;
+  padding-left: 40px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.btn-little {
+  height: 45px;
+  width: 120px;
+}
+
+.btn-middle {
+  height: 45px;
+  width: 150px;
+}
+
+.btn-bigger {
+  height: 45px;
+  width: 180px;
+}
+
+.btn-filter i {
   background-color: #deebff;
-  align-content: center;
-}
-.intro {
-  width: 60%;
-  padding: 1em;
-  padding: 0 0 15px 30px;
-}
-.search {
-  line-height: 0.4em;
-}
-.tittle {
-  padding: 2.5em;
-  margin-bottom: 10px;
-}
-.para {
-  font-size: 13px;
-  padding: 1.7em;
-}
-.cann {
-  color: black;
+  position: absolute;
+  width: 45px;
+  height: 30px;
+  text-align: center;
+  left: -10px;
+  padding-top: 15px;
+  border-radius: 25px;
 }
 .loge-info {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 1em;
+  margin-left: 0;
 }
 .loge-info i {
   text-align: center;
@@ -195,11 +204,19 @@ header i {
   height: 10px;
   padding: 6px;
   margin-right: 10px;
+  margin-left: 0;
   border: 2px solid #f2f2f2;
   border-radius: 50%;
   color: #0065fc;
 }
-
+.loge-info i:hover {
+  color: #fff;
+  background-color: #0065fc;
+  cursor: pointer;
+  border: 2px solid #0065fc;
+  box-shadow: 5px 3px 10px #a9a9a9;
+  transition: 0.5s;
+}
 /*section*/
 section {
   display: flex;
