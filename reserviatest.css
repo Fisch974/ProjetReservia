@@ -99,7 +99,7 @@ header {
 }
 .search-box-button:hover {
   box-shadow: 5px 3px 10px #a9a9a9;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 header i {
   color: #000;
@@ -143,7 +143,7 @@ header i {
   cursor: pointer;
   border: 1px solid #0065fc;
   box-shadow: 5px 3px 10px #a9a9a9;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .button-filters button {
@@ -237,7 +237,11 @@ section {
   margin: 10px 20px 10px 20px;
   padding: 4px;
   cursor: pointer;
-  box-shadow: 5px 3px 10px #d4d4d4;
+  box-shadow: 5px 3px 10px #dcdcdc;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px 3px #a9a9a9;
+  transition: 0.3s;
 }
 .inffo {
   margin-left: 10px;
@@ -270,6 +274,7 @@ section {
 }
 .more a:hover {
   color: #0065fc;
+  transition: 0.3s;
 }
 
 /*aside*/
@@ -299,7 +304,11 @@ aside {
   margin: 20px 20px 50px 20px;
   padding: 4px;
   cursor: pointer;
-  box-shadow: 5px 3px 10px #d4d4d4;
+  box-shadow: 5px 3px 10px #dcdcdc;
+}
+.cards-side:hover {
+  box-shadow: 5px 5px 20px 3px #a9a9a9;
+  transition: 0.3s;
 }
 .trend-details {
   display: flex;
@@ -389,7 +398,6 @@ article img {
   height: 210px;
   box-shadow: 5px 3px 10px #dcdcdc;
 }
-
 .des {
   font-weight: 700;
   margin: 0 0 0 20px;
@@ -397,6 +405,26 @@ article img {
   text-align: justify;
 }
 
+.cards:hover {
+  box-shadow: 5px 5px 20px 3px #a9a9a9;
+  transition: 0.3s;
+}
+.cards-2:hover {
+  box-shadow: 5px 5px 20px 3px #a9a9a9;
+  transition: 0.3s;
+}
+.cards-3:hover {
+  box-shadow: 5px 5px 20px 3px #a9a9a9;
+  transition: 0.3s;
+}
+.cards-4:hover {
+  box-shadow: 5px 5px 20px 3px #a9a9a9;
+  transition: 0.3s;
+}
+.cards-5:hover {
+  box-shadow: 5px 5px 20px 3px #a9a9a9;
+  transition: 0.3s;
+}
 /*footer*/
 .footer-container {
   background-color: #f2f2f2;
