@@ -215,7 +215,7 @@ header i {
   cursor: pointer;
   border: 2px solid #0065fc;
   box-shadow: 5px 3px 10px #a9a9a9;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 /*section*/
 section {
@@ -300,11 +300,12 @@ aside {
   background: white;
   border-radius: 20px 20px;
   width: 340px;
-  height: 120px;
-  margin: 20px 20px 50px 20px;
+  height: 130px;
+  margin: 20px 20px 40px 20px;
   padding: 4px;
   cursor: pointer;
   box-shadow: 5px 3px 10px #dcdcdc;
+  line-height: 1em;
 }
 .cards-side:hover {
   box-shadow: 5px 5px 20px 3px #a9a9a9;
@@ -315,18 +316,13 @@ aside {
   flex-direction: column;
   flex-wrap: wrap;
   margin-left: 15px;
+  margin-bottom: 0px;
 }
 .aside-stars {
-  display: flex;
-  flex-direction: row;
   padding-bottom: 5px;
-  justify-content: flex-start;
 }
-.aside-stars-mid {
-  bottom: 90%;
-}
+
 aside p {
-  padding-bottom: -7%;
   line-height: 1px;
 }
 aside img {
@@ -339,7 +335,6 @@ aside h3 {
   padding-left: 25px;
   padding-top: 20px;
   padding-right: 20px;
-  margin-bottom: 20px;
 }
 
 /*article*/
@@ -356,6 +351,7 @@ article {
 }
 article img {
   border-radius: 20px 20px 0 0px;
+  cursor: pointer;
 }
 .cards {
   width: 300px;
@@ -364,6 +360,7 @@ article img {
   margin: 10px 30px 30px 20px;
   height: 450px;
   box-shadow: 5px 3px 10px #dcdcdc;
+  cursor: pointer;
 }
 
 .cards-2 {
@@ -433,7 +430,7 @@ article img {
 }
 .footer {
   width: 70%;
-  height: 140px;
+  height: 160px;
   padding: 1em;
   background-color: #f2f2f2;
   color: black;
